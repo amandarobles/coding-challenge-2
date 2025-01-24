@@ -11,3 +11,15 @@ let total = scores.reduce((sum, score) => sum + score, 0);
 let average = total / scores.length;
 console.log("Updated Scores:", scores);
 console.log("Average Score:", average);
+
+
+//task 3 - Working with Objects
+let employee = {
+    name: "Jane Doe",
+    age: 30,
+    department: "HR",
+    isActive: true,
+};
+employee.department = "Finance";
+employee.position = "Manager";
+console.log("Updated Employee Record:", employee);
